@@ -1,4 +1,4 @@
-Instructions to test:
+Instructions to run:
   1. For the sniffer code’s pcap_open_live, to get the correct interface, use ifconfig and select the one on top. This code was tested on a Google Cloud instance, in this case, the correct interface will look something like 'br-5738f31b4abe'.
   2. Go to the environment directory 
   3. Run docker-compose build.
